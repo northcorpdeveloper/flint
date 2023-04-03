@@ -30,8 +30,47 @@
 					</a>
 					<div class="dropdown-menu">
 						<a class="dropdown-item" href="#">Action</a>
+						
+						
+						
 						<a class="dropdown-item" href="#">Another action</a>
 						<a class="dropdown-item" href="#">Something else here</a>
+						
+						
+						
+            <a class="dropdown-item" href="#">
+              Submenu &raquo;
+            </a>
+            <ul class="dropdown-menu dropdown-submenu">
+              <li>
+                <a class="dropdown-item" href="#">Submenu item 1</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Submenu item 2</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
+                <ul class="dropdown-menu dropdown-submenu">
+                  <li>
+                    <a class="dropdown-item" href="#">Multi level 1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Multi level 2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Submenu item 4</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Submenu item 5</a>
+              </li>
+            </ul>
+       	
+						
+						
+						
+						
 					</div>
 				</li>
 				<li class="nav-item dropdown">
@@ -204,7 +243,7 @@
 <section class="happyCustomers wow fadeInUp">
 	<div class="container"> 
 		<div class="sectionHeading"> 
-			<h2>Testimonials</h2>
+			<h2>Happy Customers</h2>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 		</div>
 		<div class="happyCustomersOwl">
