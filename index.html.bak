@@ -67,10 +67,13 @@ font-style: normal;
 						Partners & Alliances
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">Technology Partners</a>						
+						<a class="dropdown-item" href="#">MetaCube</a>
+						<a class="dropdown-item" href="#">Binary Semantics (Arabia)</a>
+						<a class="dropdown-item" href="#">HCL</a>
+						<a class="dropdown-item" href="#">Tech Mahindra</a>
+						<a class="dropdown-item" href="#">IBM</a>
 					</div>					
 				</li> 
-				
 				
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -116,11 +119,11 @@ font-style: normal;
 				<p>We know how large objects will act, but things on a small scale.</p> 
 				<a href="#" class="bannerAction">View More</a> 
 			</div> 
-		</div>
+		</div><!--
 		<div class="carousel-item">
 			<img src="images/slide-3.jpg" class="d-block w-100" alt="..." /> 
 			
-		</div>
+		</div> -->
 		<div class="carousel-item">
 			<img src="images/man.jpeg" class="d-block w-100" alt="..." /> 
 			
@@ -150,7 +153,7 @@ font-style: normal;
 		<div class="row align-items-center">
 			<div class="col-sm-5">  
 				<h3>Consulting Services</h3>
-				<p>With years of expertise in digital consulting services, we provide end-to-end solutions - plan, design,
+				<p style="text-align: justify;">With years of expertise in digital consulting services, we provide end-to-end solutions - plan, design,
 build, and scale, for businesses worldwide. Our tailored solutions help businesses in the Middle East and
 North Africa to adapt to the rapidly changing digital landscape and stay ahead of the competition.
 With expertise in various industries to help customers build enterprise specific solutions by:</p> 
@@ -173,7 +176,7 @@ With expertise in various industries to help customers build enterprise specific
 			</div>
 			<div class="col-sm-5">  
 				<h3>Technology Enablement</h3>
-				<p>Different technologies do different jobs. What suits others is not necessarily suitable for you. It depends
+				<p style="text-align: justify;">Different technologies do different jobs. What suits others is not necessarily suitable for you. It depends
 on the industry you&#39;re operating into, the type of customers, geography, and your existing legacy
 systems, and so on. Most companies end up making wrong selections, inapt and delayed
 implementation, and cost overruns in the absence of the right technology partner/vendor.
@@ -189,7 +192,7 @@ We&#39;re here to help you identify the best technologies that you should use in
 		<div class="row align-items-center">
 			<div class="col-sm-5">  
 				<h3>Infrastructure Management</h3>
-				<p>With growing digital consumption, your legacy network infrastructure can no longer be considered
+				<p style="text-align: justify;">With growing digital consumption, your legacy network infrastructure can no longer be considered
 reliable, secure, and ready enough to support your growing digital transformation needs. It either fails
 to manage the current challenges or is too costly to work with them.</br>
 So for us, the goal is to meet your end-to-end requirements - designing, implementing, and managing
@@ -211,7 +214,7 @@ the network, data center, servers, storage, and other components. We offer:</p>
 			</div>
 			<div class="col-sm-5">  
 				<h3>Managed Services </h3>
-				<p>We help identify areas where technology and resources that can be optimized, and develop and execute
+				<p style="text-align: justify;">We help identify areas where technology and resources that can be optimized, and develop and execute
 strategies to achieve it .With our proactive approach to managing technology, we offer a range of
 services that can help you streamline technology infrastructure, augment the talent pool, and improve
 efficiency. The range of services that we offer is R&amp;D and engineering, maintenance, operations, and
@@ -397,9 +400,7 @@ support. We specialize in areas, such as:</p>
 							<a href="#">Data Center Build Design</a>  
 						</div> 
 						<div class="linkBox">
-							<h3>technology enablement </h3> 
-							<a href="#">Solutions from Binary</a> 
-							<a href="#">Services from Meta</a> 
+							<h3>technology enablement </h3> 							
 							<a href="#">Industry solutions (automation)</a>  
 							<a href="#">Extended Services</a>  
 						</div> 
