@@ -23,87 +23,76 @@ font-style: normal;
     color: #545454;
 
 }
-.nav-item{white-space: nowrap;}
 </style>
 </head>
 <body>   
 <!-- Strat Navbar -->
-<nav class="navbar navigation navbar-expand-lg navbar-light">
+<nav class="navbar navigation navbar-expand-xl">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="#"><img src="images/logo.svg" alt="Flint Logo" /></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">  
+			<ul class="navbar-nav ml-auto">    
 				<li class="nav-item dropdown">
-					<a class="dropdown-toggle" href="#" id="Services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-					<ul class="dropdown-menu" aria-labelledby="Services">
-						<li class="nav-item dropdown menuLabel1">
-							<a class="dropdown-toggle" href="#" id="Service1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Consulting Services</a>
-							<ul class="dropdown-menu" aria-labelledby="Service1">
-								<li class="nav-item"><a href="#">Service 1.1</a></li>
-								<li class="nav-item"><a href="#">Service 1.2</a></li>
-								<li class="nav-item"><a href="#">Service 1.3</a></li>
-							</ul>
-						</li>
-						<li class="nav-item dropdown menuLabel1">
-							<a class="dropdown-toggle" href="#" id="Service2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Technology Enablement</a>
-							<ul class="dropdown-menu" aria-labelledby="Service2">
-								<li class="nav-item"><a href="#">Service 1.1</a></li>
-								<li class="nav-item"><a href="#">Service 1.2</a></li>
-								<li class="nav-item"><a href="#">Service 1.3</a></li>
-							</ul>
-						</li> 
-						<li class="nav-item"><a href="#">Infrastructure Management</a></li>
-						<li class="nav-item"><a href="#">Managed Services</a></li>
-						<li class="nav-item"><a href="#">Strategic Resourcing</a></li>
-					</ul>
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+						Services
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Consulting Services</a>
+						<a class="dropdown-item" href="#">Technology Enablement</a>
+						<a class="dropdown-item" href="#">Infrastructure Management</a>
+						<a class="dropdown-item" href="#">Managed Services</a>
+						<a class="dropdown-item" href="#">Strategic Resourcing</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+						Industries
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Banking &amp; Financial services</a>
+						<a class="dropdown-item" href="#">Telecommunication, Data Center Infrastructure &amp; OEM</a>
+						<a class="dropdown-item" href="#">Higher Education</a>
+						<a class="dropdown-item" href="#">Automotive &amp; Transportation</a>
+						<a class="dropdown-item" href="#">Aviation</a>
+						<a class="dropdown-item" href="#">Government</a>
+						<a class="dropdown-item" href="#">Healthcare &amp; Life Sciences</a>
+						<a class="dropdown-item" href="#">Real estate</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">						
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+						Partners & Alliances
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">MetaCube</a>
+						<a class="dropdown-item" href="#">Binary Semantics (Arabia)</a>
+						<a class="dropdown-item" href="#">HCL</a>
+						<a class="dropdown-item" href="#">Tech Mahindra</a>
+						<a class="dropdown-item" href="#">IBM</a>
+					</div>					
 				</li> 
-				<li class="nav-item dropdown">
-					<a class="dropdown-toggle" href="#" id="Industries" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Industries</a>
-					<ul class="dropdown-menu" aria-labelledby="Industries">
-						
-						<li class="nav-item"><a href="#">Banking &amp; Financial services</a></li>
-						<li class="nav-item"><a href="#">Telecommunication, Data Center Infrastructure &amp; OEM</a></li>
-						<li class="nav-item"><a href="#">Higher Education</a></li>
-						<li class="nav-item"><a href="#">Automotive &amp; Transportation</a></li>
-						<li class="nav-item"><a href="#">Aviation</a></li>
-						<li class="nav-item"><a href="#">Government</a></li>
-						<li class="nav-item"><a href="#">Healthcare &amp; Life Sciences</a></li>
-						<li class="nav-item"><a href="#">Real estate</a></li>
-					</ul>
-				</li>
 				
 				<li class="nav-item dropdown">
-					<a class="dropdown-toggle" href="#" id="Industries" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Partners & Alliances</a>
-					<ul class="dropdown-menu" aria-labelledby="Industries">
-						
-						<li class="nav-item"><a href="#">MetaCube</a></li>
-						<li class="nav-item"><a href="#">Binary Semantics (Arabia)</a></li>
-						<li class="nav-item"><a href="#">HCL</a></li>
-						<li class="nav-item"><a href="#">Tech Mahindra</a></li>
-						<li class="nav-item"><a href="#">IBM</a></li>
-					</ul>
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+						What We Think
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Blogs</a>
+						<a class="dropdown-item" href="#">Case Studies</a>
+						<a class="dropdown-item" href="#">Insights</a>
+					</div>
 				</li>
-				
-				
-				
-				<li class="nav-item dropdown">
-					<a class="dropdown-toggle" href="#" id="WhatWeThink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">What We Think</a>
-					<ul class="dropdown-menu" aria-labelledby="WhatWeThink">
-						
-						<li class="nav-item"><a href="#">Blogs</a></li>
-						<li class="nav-item"><a href="#">Case Studies</a></li>
-						<li class="nav-item"><a href="#">Insights</a></li>						
-					</ul>
-				</li>
-				<li class="nav-item"><a href="#">Careers</a></li> 
+				<li class="nav-item">	
+					<a class="nav-link" href="#">Careers</a> 
+				</li> 
 			</ul>
 		</div> 
 		<div class="searchBox"><a href="#"><i class="fa fa-search"></i></a>  </div>
 	</div>
-</nav>   
+</nav> 
 <!-- End Navbar --> 
 <!-- Strat Banner -->
 <div id="mainBanner" class="mainBanner carousel slide" data-ride="carousel"> 
@@ -112,6 +101,7 @@ font-style: normal;
 		<li data-target="#mainBanner" data-slide-to="1"></li>
 		<li data-target="#mainBanner" data-slide-to="2"></li>
 		<li data-target="#mainBanner" data-slide-to="3"></li>
+		
 	</ol> 	
 	<div class="carousel-inner">
 		<div class="carousel-item active">
@@ -161,83 +151,80 @@ font-style: normal;
 			<h2>Where can we help you?</h2>
 		</div>
 		<div class="row align-items-center">
-			<div class="order-2 order-md-1 col-md-6 col-lg-5">  
+			<div class="col-sm-5">  
 				<h3>Consulting Services</h3>
 				<p style="text-align: justify;">With years of expertise in digital consulting services, we provide end-to-end solutions - plan, design,
 build, and scale, for businesses worldwide. Our tailored solutions help businesses in the Middle East and
 North Africa to adapt to the rapidly changing digital landscape and stay ahead of the competition.
-With expertise in various industries to help customers build enterprise specific solutions by:</p>  
-				<ul class="listingUi">
+With expertise in various industries to help customers build enterprise specific solutions by:</p> 
+				<ul class="clsul">
 				  <li>Automate business processes</li>
 				  <li>Digital transformation</li>
 				  <li>RPA: Replace the human workforce with automation</li>
 				  <li>IT infrastructure &amp; Operations</li>
 				</ul>
-				<a href="#" class="btnAction">Know More</a>
+				
+					<span><a href="#">Know More</a></span>
 			</div> 
-			<div class="order-1 order-md-2 col-md-6 col-lg-7">
+			<div class="col-sm-7">
 				<img src="images/h1.svg" alt="image" />
 			</div> 
 		</div>
 		<div class="row align-items-center">
-			<div class="col-md-6 col-lg-7">
+			<div class="col-sm-7">
 				<img src="images/h2.svg" alt="image" />
 			</div>
-			<div class="col-md-6 col-lg-5">  
+			<div class="col-sm-5">  
 				<h3>Technology Enablement</h3>
 				<p style="text-align: justify;">Different technologies do different jobs. What suits others is not necessarily suitable for you. It depends
 on the industry you&#39;re operating into, the type of customers, geography, and your existing legacy
 systems, and so on. Most companies end up making wrong selections, inapt and delayed
 implementation, and cost overruns in the absence of the right technology partner/vendor.
 We&#39;re here to help you identify the best technologies that you should use in the areas of:</p> 
-			<ul class="listingUi">
+			<ul class="clsul">
 				  <li>Usage of AI/ML for enterprise-specific solutions</li>
 				  <li>Migration and modernization of legacy applications</li>
 				  <li>Upgradation of Data center facilities</li>
 				  <li>Network and cyber security, and others.</li>
-				</ul>
-
-				<a href="#" class="btnAction">Know More</a>
+				</ul>	<span><a href="#">Know More</a></span>
 			</div>  
 		</div>
 		<div class="row align-items-center">
-			<div class="order-2 order-md-1 col-md-6 col-lg-5">  
+			<div class="col-sm-5">  
 				<h3>Infrastructure Management</h3>
 				<p style="text-align: justify;">With growing digital consumption, your legacy network infrastructure can no longer be considered
 reliable, secure, and ready enough to support your growing digital transformation needs. It either fails
 to manage the current challenges or is too costly to work with them.</br>
 So for us, the goal is to meet your end-to-end requirements - designing, implementing, and managing
 the network, data center, servers, storage, and other components. We offer:</p> 
-				<ul class="listingUi">
+				<ul class="clsul">
 				  <li>Automated and cloud-ready network infrastructure</li>
 				  <li>Automatically identify issues before they become critical</li>
 				  <li>Upscale/downscale resources intelligently</li>
 				  <li>Optimize IT spending and increase efficiency</li>
-				</ul>
-				<a href="#" class="btnAction">Know More</a>
+				</ul>	<span><a href="#">Know More</a></span>
 			</div> 
-			<div class="order-1 order-md-2 col-md-6 col-lg-7">
+			<div class="col-sm-7">
 				<img src="images/h3.svg" alt="image" />
 			</div> 
 		</div>
 		<div class="row align-items-center">
-			<div class="col-md-6 col-lg-7">
+			<div class="col-sm-7">
 				<img src="images/h4.svg" alt="image" />
 			</div>
-			<div class="col-md-6 col-lg-5">  
+			<div class="col-sm-5">  
 				<h3>Managed Services </h3>
 				<p style="text-align: justify;">We help identify areas where technology and resources that can be optimized, and develop and execute
 strategies to achieve it .With our proactive approach to managing technology, we offer a range of
 services that can help you streamline technology infrastructure, augment the talent pool, and improve
 efficiency. The range of services that we offer is R&amp;D and engineering, maintenance, operations, and
 support. We specialize in areas, such as:</p> 
-					<ul class="listingUi">
+					<ul class="clsul">
 				  <li>Application development, support, and testing</li>
 				  <li>IT - network and security operation center</li>
 				  <li>Cloud application support</li>
 				  <li>Strategic resourcing (HR &amp; Operations)</li>
-				</ul>
-				<a href="#" class="btnAction">Know More</a>
+				</ul>	<span><a href="#">Know More</a></span>
 			</div>  
 		</div>
 	</div>
@@ -251,28 +238,28 @@ support. We specialize in areas, such as:</p>
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-lg-3"> 
+			<div class="col-sm-3"> 
 				<div class="stateBox">
 					<img src="images/icon1.svg" alt="Icon" />
 					<h3>2,500+</h3>
 					<p>Staff</p>
 				</div>  
 			</div>  
-			<div class="col-md-6 col-lg-3"> 
+			<div class="col-sm-3"> 
 				<div class="stateBox">
 					<img src="images/icon2.svg" alt="Icon" />
 				<h3>20+</h3>
 				<p>Years in the ICT Industry</p>
 				</div>  
 			</div> 
-			<div class="col-md-6 col-lg-3"> 
+			<div class="col-sm-3"> 
 				<div class="stateBox">
 					<img src="images/icon3.svg" alt="Icon" />
 					<h3>40+</h3>
 					<p>Countries</p>
 				</div>  
 			</div> 
-			<div class="col-md-6 col-lg-3"> 
+			<div class="col-sm-3"> 
 				<div class="stateBox">
 					<img src="images/icon4.svg" alt="Icon" />
 					<h3>50+</h3>
@@ -392,7 +379,7 @@ support. We specialize in areas, such as:</p>
 <footer>
 	<div class="container-fluid">
 		<div class="row"> 
-			<div class="order-sm-3 col-sm-4 order-md-1 col-md-6 col-lg-5 col-xl-2"> 
+			<div class="col-sm-2"> 
 				<h2>Get in touch</h2> 
 				<p>the quick fox jumps over the lazy dog</p>
 				<div class="socialIcon"> 
@@ -402,7 +389,7 @@ support. We specialize in areas, such as:</p>
 					<a href="#" class="youtubeIcon"><i class="fa fa-youtube"></i></a>
 				</div>
 		   </div>
-		   <div class="order-sm-2 col-sm-12 order-md-2 col-md-6 col-lg-7 col-xl-5">
+		   <div class="col-sm-5">
 				<h2>SERVICES</h2>
 				<div class="linkWarp">
 					<div class="twoCol">
@@ -423,7 +410,7 @@ support. We specialize in areas, such as:</p>
 							<a href="#">Security design and implementation </a>  
 							<a href="#">Data center - passive infra management (BMS)</a>  
 						</div> 
-					</div>  
+					</div> 
 					<div class="twoCol"  style=" width: 48%;">
 						<div class="linkBox">
 							<h3>managed services</h3> 
@@ -441,14 +428,14 @@ support. We specialize in areas, such as:</p>
 					</div> 
 				</div>  
 			</div> 
-			<div class="order-sm-4 col-sm-3 order-md-3 col-md-2 col-lg-2 col-xl-2 upMargin"> 
+			<div class="col-sm-2"> 
 				<h2>COMPANY</h2>
 				<a href="#">About us</a> 
 				<a href="#">Insights</a> 
 				<a href="#">Careers</a>  
 				<a href="#">Contact Us</a>   
 			</div> 
-			<div class="order-sm-2 col-sm-5 order-md-4 col-md-4  col-lg-3 col-xl-3 upMargin"> 
+			<div class="col-sm-3"> 
 				<h2>FLINT INTERNATIONAL</h2>
 				<p>Services designed to reduce cost, accelerate new technology adoption, and provide international scaling.</p>
 				<a href="callto:+44 1923 677733"><i class="fa fa-phone"></i>	+44 1923 677733 </a> 
@@ -508,32 +495,12 @@ $(document).ready(function() {
 	],
 	responsive : {
 			0 : { items : 1  }, // from zero to 480 screen width 4 items
-			768 : { items : 1.5  }, // from zero to 480 screen width 4 items 
+			576 : { items : 1  }, // from zero to 480 screen width 4 items 
 			992 : { items : 2.5   // from 768 screen width to 1024 8 items
 			}
 		},
 	});  
 });
-(function($){
-	// $('.navigation a.dropdown-toggle').on('click', function(e) { 
-	// 	$('.navigation .dropdown-menu .show').removeClass("show");
-	// });
-	$('.navigation .dropdown-menu a.dropdown-toggle').on('click', function(e) { 
-		$('.navigation .dropdown-menu a.dropdown-toggle').removeClass('active');
-		$(this).addClass('active');
-	  if (!$(this).next().hasClass('show')) {
-		$(this).parents('.navigation .dropdown-menu').first().find('.show').removeClass("show");
-	  }
-	  var $subMenu = $(this).next(".navigation .dropdown-menu");
-	  $subMenu.toggleClass('show');
-
-	  $(this).parents('.navigation li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
-		$('.navigation .dropdown-menu.show').removeClass("show");
-	  });
-
-	  return false;
-	});
-})(jQuery)
 </script> 
  
 </body>
