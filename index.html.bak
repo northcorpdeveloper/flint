@@ -117,11 +117,15 @@ font-style: normal;
 		</div>
 		<div class="carousel-item">
 			<img src="images/slide-3.jpg" class="d-block w-100" alt="..." /> 
-			<div class="captionBox">
-				<h2>INSPIRING DIGITAL TRANSFORMATION </h2>
-				<p>We know how large objects will act, but things on a small scale.</p> 
-				<a href="#" class="bannerAction">View More</a> 
-			</div> 
+			
+		</div>
+		<div class="carousel-item">
+			<img src="images/man.jpeg" class="d-block w-100" alt="..." /> 
+			
+		</div>
+		<div class="carousel-item">
+			<img src="images/mans.jpeg" class="d-block w-100" alt="..." /> 
+			
 		</div>
 	</div> 
 	<button class="sildePrev" type="button" data-target="#mainBanner" data-slide="prev">
@@ -267,7 +271,7 @@ support. We specialize in areas, such as:</p>
 	<div class="container"> 
 		<div class="sectionHeading"> 
 			<h2>Testimonials</h2>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			<p>With our offices in 40+ countries and 15 local offices across continents for local market insights, we are relentlessly serving our 50 + customers to provide strong customer relationships, technical expertise, and a drive for innovation.</p>
 		</div>
 		<div class="happyCustomersOwl">
 			<div class="items"> 
@@ -385,14 +389,17 @@ support. We specialize in areas, such as:</p>
 				<div class="linkWarp">
 					<div class="twoCol">
 						<div class="linkBox">
-							<h3>digital transformation </h3> 
+							<h3>Consulting Services </h3> 
+							<a href="#">Digital Transformation</a> 
 							<a href="#">Process Automation</a> 
 							<a href="#">Data Center Build Design</a>  
 						</div> 
 						<div class="linkBox">
 							<h3>technology enablement </h3> 
 							<a href="#">Solutions from Binary</a> 
-							<a href="#">Services from Meta</a>  
+							<a href="#">Services from Meta</a> 
+							<a href="#">Industry solutions (automation)</a>  
+							<a href="#">Extended Services</a>  
 						</div> 
 						<div class="linkBox">
 							<h3>infrastructure management</h3> 
@@ -405,14 +412,15 @@ support. We specialize in areas, such as:</p>
 						<div class="linkBox">
 							<h3>managed services</h3> 
 							<a href="#">IT Operations</a> 
-							<a href="#">Network Operating System</a>  
-							<a href="#">Security Operating System</a>  
-							<a href="#">Technical Assistance Services</a>  
+							<a href="#">Network Operations Center (NOC)</a>  
+							<a href="#">Security Operations Center (SOC)</a>  
+							<a href="#">Technical Assistance Center (TAC)</a>  
 						</div> 
 						<div class="linkBox">
-							<h3>others</h3> 
-							<a href="#">Staffing</a> 
-							<a href="#">Training</a>  
+							<h3>Strategic Resourcing</h3> 
+							<a href="#">Staff Augmentation (HR/Operations)</a> 
+							<a href="#">Learning &amp; Development</a>  
+							<a href="#">TAC management</a>  
 						</div>   
 					</div> 
 				</div>  
