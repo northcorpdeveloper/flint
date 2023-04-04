@@ -97,6 +97,8 @@ font-style: normal;
 		<li data-target="#mainBanner" data-slide-to="0" class="active"></li>
 		<li data-target="#mainBanner" data-slide-to="1"></li>
 		<li data-target="#mainBanner" data-slide-to="2"></li>
+		<li data-target="#mainBanner" data-slide-to="3"></li>
+		<li data-target="#mainBanner" data-slide-to="4"></li>
 	</ol> 	
 	<div class="carousel-inner">
 		<div class="carousel-item active">
@@ -177,10 +179,10 @@ systems, and so on. Most companies end up making wrong selections, inapt and del
 implementation, and cost overruns in the absence of the right technology partner/vendor.
 We&#39;re here to help you identify the best technologies that you should use in the areas of:</p> 
 			<ul class="clsul">
-				  <li>Automate business processes</li>
-				  <li>Digital transformation</li>
-				  <li>RPA: Replace the human workforce with automation</li>
-				  <li>IT infrastructure &amp; Operations</li>
+				  <li>Usage of AI/ML for enterprise-specific solutions</li>
+				  <li>Migration and modernization of legacy applications</li>
+				  <li>Upgradation of Data center facilities</li>
+				  <li>Network and cyber security, and others.</li>
 				</ul>	<span><a href="#">Know More</a></span>
 			</div>  
 		</div>
@@ -271,7 +273,7 @@ support. We specialize in areas, such as:</p>
 	<div class="container"> 
 		<div class="sectionHeading"> 
 			<h2>Testimonials</h2>
-			<p>With our offices in 40+ countries and 15 local offices across continents for local market insights, we are relentlessly serving our 50 + customers to provide strong customer relationships, technical expertise, and a drive for innovation.</p>
+			<p>At our company, we believe in our core values of professionalism, care, and innovation. Explore what our happy customers say:</p>
 		</div>
 		<div class="happyCustomersOwl">
 			<div class="items"> 
