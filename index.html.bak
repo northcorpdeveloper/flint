@@ -29,48 +29,11 @@
 						Services
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">Action</a>
-						
-						
-						
-						<a class="dropdown-item" href="#">Another action</a>
-						<a class="dropdown-item" href="#">Something else here</a>
-						
-						
-						
-            <a class="dropdown-item" href="#">
-              Submenu &raquo;
-            </a>
-            <ul class="dropdown-menu dropdown-submenu">
-              <li>
-                <a class="dropdown-item" href="#">Submenu item 1</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Submenu item 2</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                <ul class="dropdown-menu dropdown-submenu">
-                  <li>
-                    <a class="dropdown-item" href="#">Multi level 1</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Multi level 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Submenu item 4</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Submenu item 5</a>
-              </li>
-            </ul>
-       	
-						
-						
-						
-						
+						<a class="dropdown-item" href="#">Consulting Services</a>
+						<a class="dropdown-item" href="#">Technology Enablement</a>
+						<a class="dropdown-item" href="#">Infrastructure Management</a>
+						<a class="dropdown-item" href="#">Managed Services</a>
+						<a class="dropdown-item" href="#">Strategic Resourcing</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
@@ -78,22 +41,34 @@
 						Industries
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<a class="dropdown-item" href="#">Something else here</a>
+						<a class="dropdown-item" href="#">Banking &amp; Financial services</a>
+						<a class="dropdown-item" href="#">Telecommunication, Data Center Infrastructure &amp; OEM</a>
+						<a class="dropdown-item" href="#">Higher Education</a>
+						<a class="dropdown-item" href="#">Automotive &amp; Transportation</a>
+						<a class="dropdown-item" href="#">Aviation</a>
+						<a class="dropdown-item" href="#">Government</a>
+						<a class="dropdown-item" href="#">Healthcare &amp; Life Sciences</a>
+						<a class="dropdown-item" href="#">Real estate</a>
 					</div>
 				</li>
-				<li class="nav-item">	
-					<a class="nav-link" href="#">Partners & Alliances </a> 
+				<li class="nav-item dropdown">						
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+						Partners & Alliances
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Technology Partners</a>						
+					</div>					
 				</li> 
+				
+				
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
 						What We Think
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<a class="dropdown-item" href="#">Something else here</a>
+						<a class="dropdown-item" href="#">Blogs</a>
+						<a class="dropdown-item" href="#">Case Studies</a>
+						<a class="dropdown-item" href="#">Insights</a>
 					</div>
 				</li>
 				<li class="nav-item">	
@@ -158,8 +133,25 @@
 		<div class="row align-items-center">
 			<div class="col-sm-5">  
 				<h3>Digital Transformation</h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
-				<a href="#" class="btnAction">Browse Digital Transformation</a>
+				<p>With years of expertise in digital consulting services, we provide end-to-end solutions - plan,
+design, build, and scale, for businesses worldwide. Our tailored solutions help businesses in the
+Middle East and North Africa to adapt to the rapidly changing digital landscape and stay ahead
+of the competition.</br>
+By leveraging the latest technologies in the area of Digital transformation, process automation,
+RPA, and Low code No code, we help businesses to optimize their operations, reduce the TAT,
+and enhance their customer experience.</br>
+Our team of experts works closely with customers to build industry-specific automation and
+digital transformation solutions by using the latest technologies, such as AI/ML, AR/VR, IoT, Big
+data, Cloud services, Business intelligence, and analytics.
+With expertise in various industries, such as automotive, manufacturing, banking, healthcare,
+and retail, our customized solutions help customers:</p> 
+				<a href="#" class="btnAction">Automate business processes</a>
+				<a href="#" class="btnAction">Improve efficiency</a>
+				<a href="#" class="btnAction">Replace the human workforce with their machine counterpart to reduce manpower
+requirements</a>
+				<a href="#" class="btnAction">Reduce the product/service delivery Turnaround time</a>
+				<a href="#" class="btnAction">Make data-driven decisions</a>
+				<a href="#" class="btnAction">Increase customer experience</a>
 			</div> 
 			<div class="col-sm-7">
 				<img src="images/h1.svg" alt="image" />
@@ -171,15 +163,47 @@
 			</div>
 			<div class="col-sm-5">  
 				<h3>Technology Enablement</h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
-				<a href="#" class="btnAction">Browse Technology Enablement</a>
+				<p>Different technologies do different jobs. What suits others is not necessarily suitable for you. It
+depends on the industry you&#39;re operating into, the type of customers, geography, and your
+existing line of business applications, skills, and leadership capability are the key factors that
+decide the success of your technology selection. A large number of companies end up making
+wrong selections, inapt and delayed implementation, and cost overruns in the absence of the
+right technology partner/vendor.</br>
+With our deep technology enablement services, we&#39;re here to help you identify the best
+technology that they should use; to enable and enhance business operations and outcomes.
+With our years of technical expertise in working for our customers from the Middle East and
+African region, we can help you in developing industry-specific solutions by using the latest
+technologies, in the areas of:</p> 
+				<a href="#" class="btnAction">Usage of AI/ML for enterprise-specific solutions</a>
+				<a href="#" class="btnAction">Migration and modernization of legacy applications</a>
+				<a href="#" class="btnAction">Business Intelligence for real-time decisioning</a>
+				<a href="#" class="btnAction">Upgradation of Data center facilities</a>
+				<a href="#" class="btnAction">Enhancement of network security</a>
+				<a href="#" class="btnAction">Network and infrastructure management, and others.</a>
 			</div>  
 		</div>
 		<div class="row align-items-center">
 			<div class="col-sm-5">  
 				<h3>Infrastructure Management</h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
-				<a href="#" class="btnAction">Browse  Infrastructure Management</a>
+				<p>Traditional IT infrastructure can no longer be considered reliable, secure, and ready to support
+growing digital transformation. With growing digitization, security threats, and consumption of
+more digital resources your legacy network infrastructure needs upgradation and
+modernization. It either fails to manage the current challenges or is too costly and inefficient to
+work with disparate IT devices and gateways - Data centers, networks, workplace networks,
+software applications, security applications, and so on.</br></br>
+
+So, to meet the requirement for a modern, cost-effective, reliable, and integrated IT network
+infrastructure, we offer intelligent, cloud-ready, and scalable IT network infrastructure
+management services.
+The goal is to manage and meet the end-to-end requirement - designing, implementing, and
+managing the organization&#39;s network, data center, servers, storage, network devices, cyber
+security, and other components. So that you can focus on your business. By switching to our
+Infrastructure Management Service, you can:</p> 
+				<a href="#" class="btnAction">Make your network infrastructure automated, cloud-ready, and intelligent</a>
+				<a href="#" class="btnAction">Automatically identify and resolve issues before they become critical</a>
+				<a href="#" class="btnAction">Upscale/downscale resources easily as per your requirements</a>
+				<a href="#" class="btnAction">Get a modernized, secure, and reliable network</a>
+				<a href="#" class="btnAction">Optimize your IT spending and increase productivity</a>
 			</div> 
 			<div class="col-sm-7">
 				<img src="images/h3.svg" alt="image" />
@@ -191,7 +215,16 @@
 			</div>
 			<div class="col-sm-5">  
 				<h3>Managed Services </h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
+				<p>We identify areas where technology can be optimized, and develop and execute strategies to
+achieve it. With our proactive approach to managing technology, we offer a range of services
+that can help you streamline technology infrastructure, reduce costs, and improve efficiency.</br></br>
+
+And, you can focus on your core competencies, while leaving the day-to-day management of
+your technology to our experts.</br>
+We use a range of methodologies, including Agile and Lean, to ensure that our services are
+always aligned with the needs of our customers. The range of services that we offer is extensive
+and includes R&amp;D and engineering, maintenance, operations, and support. We specialize in
+areas, such as:</p> 
 				<a href="#" class="btnAction">Browse Managed Services</a>
 			</div>  
 		</div>
@@ -243,7 +276,7 @@
 <section class="happyCustomers wow fadeInUp">
 	<div class="container"> 
 		<div class="sectionHeading"> 
-			<h2>Happy Customers</h2>
+			<h2>Testimonials</h2>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 		</div>
 		<div class="happyCustomersOwl">
