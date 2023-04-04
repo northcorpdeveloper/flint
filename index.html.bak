@@ -411,7 +411,7 @@ support. We specialize in areas, such as:</p>
 							<a href="#">Data center - passive infra management (BMS)</a>  
 						</div> 
 					</div> 
-					<div class="twoCol">
+					<div class="twoCol"  style=" width: 48%;">
 						<div class="linkBox">
 							<h3>managed services</h3> 
 							<a href="#">IT Operations</a> 
