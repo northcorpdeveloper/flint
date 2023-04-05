@@ -25,6 +25,8 @@ font-style: normal;
 
 }
 .nav-item{white-space: nowrap;}
+.mainBanner .captionBox p {
+max-width:600px;}
 </style>
 </head>
 <body>   
@@ -108,27 +110,6 @@ font-style: normal;
 				
 				
 				
-				<li class="nav-item dropdown">
-					<a class="dropdown-toggle" href="#" id="Industries" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About us</a>
-					<ul class="dropdown-menu" aria-labelledby="Industries">						
-						<li class="nav-item"><a href="#">Our Company</a></li>
-						<li class="nav-item"><a href="#">Our Journey</a></li>
-						<li class="nav-item"><a href="#">Our Leadership</a></li>	
-						<li class="nav-item dropdown menuLabel1">
-							<a class="dropdown-toggle" href="#" id="about4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Partners & Alliances</a>
-							<ul class="dropdown-menu" aria-labelledby="about4">
-								<li class="nav-item"><a href="#">MetaCube</a></li>
-								<li class="nav-item"><a href="#">Binary Semantics (Arabia)</a></li>
-								<li class="nav-item"><a href="#">HCL</a></li>
-								<li class="nav-item"><a href="#">Tech Mahindra</a></li>
-								<li class="nav-item"><a href="#">IBM</a></li>
-							</ul>
-						</li>
-						
-						
-						
-					</ul>
-				</li>
 				
 				
 				
@@ -155,6 +136,29 @@ font-style: normal;
 						<li class="nav-item"><a href="#">Blogs</a></li>
 						<li class="nav-item"><a href="#">Case Studies</a></li>
 						<li class="nav-item"><a href="#">Insights</a></li>						
+					</ul>
+				</li>
+				
+				
+				<li class="nav-item dropdown">
+					<a class="dropdown-toggle" href="#" id="Industries" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About us</a>
+					<ul class="dropdown-menu" aria-labelledby="Industries">						
+						<li class="nav-item"><a href="#">Our Company</a></li>
+						<li class="nav-item"><a href="#">Our Journey</a></li>
+						<li class="nav-item"><a href="#">Our Leadership</a></li>	
+						<li class="nav-item dropdown menuLabel1">
+							<a class="dropdown-toggle" href="#" id="about4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Partners & Alliances</a>
+							<ul class="dropdown-menu" aria-labelledby="about4">
+								<li class="nav-item"><a href="#">MetaCube</a></li>
+								<li class="nav-item"><a href="#">Binary Semantics (Arabia)</a></li>
+								<li class="nav-item"><a href="#">HCL</a></li>
+								<li class="nav-item"><a href="#">Tech Mahindra</a></li>
+								<li class="nav-item"><a href="#">IBM</a></li>
+							</ul>
+						</li>
+						
+						
+						
 					</ul>
 				</li>
 				<li class="nav-item"><a href="#">Careers</a></li> 
