@@ -42,20 +42,46 @@ font-style: normal;
 						<li class="nav-item dropdown menuLabel1">
 							<a class="dropdown-toggle" href="#" id="Service1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Consulting Services</a>
 							<ul class="dropdown-menu" aria-labelledby="Service1">
-								<li class="nav-item"><a href="#">Service 1.1</a></li>
-								<li class="nav-item"><a href="#">Service 1.2</a></li>
-								<li class="nav-item"><a href="#">Service 1.3</a></li>
+								<li class="nav-item"><a href="#">Digital Transformation</a></li>
+								<li class="nav-item"><a href="#">Process Automation</a></li>
+								<li class="nav-item"><a href="#">Data Center Build design</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown menuLabel1">
 							<a class="dropdown-toggle" href="#" id="Service2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Technology Enablement</a>
 							<ul class="dropdown-menu" aria-labelledby="Service2">
-								<li class="nav-item"><a href="#">Service 1.1</a></li>
-								<li class="nav-item"><a href="#">Service 1.2</a></li>
-								<li class="nav-item"><a href="#">Service 1.3</a></li>
+								<li class="nav-item"><a href="#">IoT</a></li>
+								<li class="nav-item"><a href="#">Big Data</a></li>
+								<li class="nav-item"><a href="#">AI/ML</a></li>
+								<li class="nav-item"><a href="#">Block chain</a></li>
+								<li class="nav-item"><a href="#">Metaverse</a></li>
+								<li class="nav-item"><a href="#">AR/VR</a></li>
+								<li class="nav-item"><a href="#">RPA/Low code No code</a></li>
+								<li class="nav-item"><a href="#">Business Intelligence &amp; analytics</a></li>
+								<li class="nav-item"><a href="#">TaxTech/Fintech Applictions</a></li>
+								<li class="nav-item"><a href="#">InsureTech</a></li>
+								<li class="nav-item"><a href="#">Fleet Robo- IoT/Logistics</a></li>	
 							</ul>
 						</li> 
-						<li class="nav-item"><a href="#">Infrastructure Management</a></li>
+						<li class="nav-item dropdown menuLabel1">
+							<a class="dropdown-toggle" href="#" id="Service3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Infrastructure Management</a>
+							<ul class="dropdown-menu" aria-labelledby="Service3">
+								<li class="nav-item"><a href="#">Network design and implementation</a></li>
+								<li class="nav-item"><a href="#">Cyber Security management, design and implementation</a></li>
+								<li class="nav-item"><a href="#">Data center- Passive infra management (BMS)</a></li>
+							</ul>
+						</li>	
+
+						<li class="nav-item dropdown menuLabel1">
+							<a class="dropdown-toggle" href="#" id="Service4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Managed Services</a>
+							<ul class="dropdown-menu" aria-labelledby="Service4">
+								<li class="nav-item"><a href="#">Network design and implementation</a></li>
+								<li class="nav-item"><a href="#">Cyber Security management, design and implementation</a></li>
+								<li class="nav-item"><a href="#">Data center- Passive infra management (BMS)</a></li>
+							</ul>
+						</li>
+						
+						<li class="nav-item"><a href="#"></a></li>
 						<li class="nav-item"><a href="#">Managed Services</a></li>
 						<li class="nav-item"><a href="#">Strategic Resourcing</a></li>
 					</ul>
@@ -424,18 +450,19 @@ support. We specialize in areas, such as:</p>
 							<a href="#">Data center - passive infra management (BMS)</a>  
 						</div> 
 					</div>  
-					<div class="twoCol">
+					<div class="twoCol"  style=" width: 48%;">
 						<div class="linkBox">
 							<h3>managed services</h3> 
 							<a href="#">IT Operations</a> 
-							<a href="#">Network Operating System</a>  
-							<a href="#">Security Operating System</a>  
-							<a href="#">Technical Assistance Services</a>  
+							<a href="#">Network Operations Center (NOC)</a>  
+							<a href="#">Security Operations Center (SOC)</a>  
+							<a href="#">Technical Assistance Center (TAC)</a>  
 						</div> 
 						<div class="linkBox">
-							<h3>others</h3> 
-							<a href="#">Staffing</a> 
-							<a href="#">Training</a>  
+							<h3>Strategic Resourcing</h3> 
+							<a href="#">Staff Augmentation (HR/Operations)</a> 
+							<a href="#">Learning &amp; Development</a>  
+							<a href="#">TAC management</a>  
 						</div>   
 					</div> 
 				</div>  
