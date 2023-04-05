@@ -760,7 +760,7 @@ ul.listingUi li {
 	position: relative; 
 }     
 .ourClients .sectionHeading {
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 }
 .ourClients .sectionHeading h2 {
 	margin: 0 0 10px;
@@ -771,6 +771,37 @@ ul.listingUi li {
 	letter-spacing: 0.2px; 
 	color: #252B42;
 	text-align: center;
+}
+.ourClients img {
+	width: auto !important;
+}
+.ourClients .owl-stage {
+	display: flex;
+	align-items: center; 
+}
+.ourClients .owl-item {
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+}
+.ourClients .owl-controls {
+	margin-top: 45px;
+}
+.ourClients .owl-dots {
+	display: flex;
+	gap: 6px;
+	justify-content: center;
+}
+.ourClients .owl-dot {
+	width: 12px;
+	height: 12px; 
+	background: #FFFFFF;
+	border: 0.5px solid #E5B63F;
+	border-radius: 50%;
+}
+.ourClients .owl-dot.active { 
+	background: #E5B63F;
+	border: 0.5px solid #E5B63F;
 }
 .ourClients .sectionHeading p {
 	margin: 0 auto;

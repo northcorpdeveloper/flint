@@ -105,38 +105,10 @@ font-style: normal;
 					</ul>
 				</li>
 				
-				
-				
-				<li class="nav-item dropdown">
-					<a class="dropdown-toggle" href="#" id="Industries" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About us</a>
-					<ul class="dropdown-menu" aria-labelledby="Industries">						
-						<li class="nav-item"><a href="#">Our Company</a></li>
-						<li class="nav-item"><a href="#">Our Journey</a></li>
-						<li class="nav-item"><a href="#">Our Leadership</a></li>	
-						<li class="nav-item dropdown menuLabel1">
-							<a class="dropdown-toggle" href="#" id="about4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Partners & Alliances</a>
-							<ul class="dropdown-menu" aria-labelledby="about4">
-								<li class="nav-item"><a href="#">MetaCube</a></li>
-								<li class="nav-item"><a href="#">Binary Semantics (Arabia)</a></li>
-								<li class="nav-item"><a href="#">HCL</a></li>
-								<li class="nav-item"><a href="#">Tech Mahindra</a></li>
-								<li class="nav-item"><a href="#">IBM</a></li>
-							</ul>
-						</li>
-						
-						
-						
-					</ul>
-				</li>
-				
-				
-				
-				
-				
-				<!--
 				<li class="nav-item dropdown">
 					<a class="dropdown-toggle" href="#" id="Industries" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Partners & Alliances</a>
-					<ul class="dropdown-menu" aria-labelledby="Industries">						
+					<ul class="dropdown-menu" aria-labelledby="Industries">
+						
 						<li class="nav-item"><a href="#">MetaCube</a></li>
 						<li class="nav-item"><a href="#">Binary Semantics (Arabia)</a></li>
 						<li class="nav-item"><a href="#">HCL</a></li>
@@ -145,7 +117,7 @@ font-style: normal;
 					</ul>
 				</li>
 				
-				-->
+				
 				
 				<li class="nav-item dropdown">
 					<a class="dropdown-toggle" href="#" id="WhatWeThink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">What We Think</a>
@@ -168,8 +140,8 @@ font-style: normal;
 	<ol class="carousel-indicators">
 		<li data-target="#mainBanner" data-slide-to="0" class="active"></li>
 		<li data-target="#mainBanner" data-slide-to="1"></li>
-		<li data-target="#mainBanner" data-slide-to="2"></li> 
-		<li data-target="#mainBanner" data-slide-to="3"></li> 
+		<li data-target="#mainBanner" data-slide-to="2"></li>
+		<li data-target="#mainBanner" data-slide-to="3"></li>
 	</ol> 	
 	<div class="carousel-inner">
 		<div class="carousel-item active">
@@ -187,7 +159,11 @@ font-style: normal;
 				<p>We know how large objects will act, but things on a small scale.</p> 
 				<a href="#" class="bannerAction">View More</a> 
 			</div> 
-		</div> 
+		</div><!--
+		<div class="carousel-item">
+			<img src="images/slide-3.jpg" class="d-block w-100" alt="..." /> 
+			
+		</div> -->
 		<div class="carousel-item">
 			<img src="images/man.jpeg" class="d-block w-100" alt="..." /> 
 			
@@ -429,15 +405,15 @@ support. We specialize in areas, such as:</p>
 		</div>
 		<div class="row"> 
 			<div class="col-sm-12">  
-				<div class="clientsImg clientsOwl">
+			
+			
+				<div class="clientsImg">
 					<img src="images/c1.png" alt="client" />
 					<img src="images/c2.png" alt="client" />
 					<img src="images/c3.png" alt="client" />
 					<img src="images/c4.png" alt="client" />
 					<img src="images/c5.png" alt="client" />
 					<img src="images/c6.png" alt="client" />
-					<img src="images/c3.png" alt="client" />
-					<img src="images/c4.png" alt="client" />
 				</div>
 			</div>  
 		</div> 
@@ -569,26 +545,6 @@ $(document).ready(function() {
 			}
 		},
 	});  
-	$(".clientsOwl").owlCarousel({
-		dots:false, 
-		nav:false, 
-		loop: true,
-		autoplay: true,
-		autoplayTimeout:2000,
-		autoplayHoverPause: true,
-	navText: [
-	"<i class='fa fa-angle-left'></i>",
-	"<i class='fa fa-angle-right'></i>"
-	],
-	responsive : {
-			0 : { items : 1  }, // from zero to 480 screen width 4 items
-			480 : { items : 2  }, // from zero to 480 screen width 4 items
-			575 : { items : 3  }, // from zero to 480 screen width 4 items
-			768 : { items : 5  }, // from zero to 480 screen width 4 items 
-			992 : { items : 6   // from 768 screen width to 1024 8 items
-			}
-		},
-	}); 
 });
 (function($){
 	// $('.navigation a.dropdown-toggle').on('click', function(e) { 
