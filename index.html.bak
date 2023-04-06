@@ -26,7 +26,13 @@ font-style: normal;
 }
 .nav-item{white-space: nowrap;}
 .mainBanner .captionBox p {
-max-width:600px;}
+max-width:750px;}
+
+
+
+.innerBanner h2 {
+    max-width: 750px !important;
+}
 </style>
 </head>
 <body>   
@@ -182,7 +188,7 @@ max-width:600px;}
 			<div class="captionBox">
 				<h2>Digital consulting </h2>
 				<p>Leverage cutting edge technologies, our 20+ years of expertise, local market insights or skilled talent pool to transform, automate businesses processes to scale and seize the opportunities and capture more market share.</p> 
-				<a href="#" class="bannerAction">View More</a> 
+				<a href="services.html" class="bannerAction">View More</a> 
 			</div> 
 		</div> 
 		<div class="carousel-item">
@@ -240,7 +246,7 @@ With expertise in various industries to help customers build enterprise specific
 				  <li>RPA: Replace the human workforce with automation</li>
 				  <li>IT infrastructure &amp; Operations</li>
 				</ul>
-				<a href="#" class="btnAction">Know More</a>
+				<a href="services.html" class="btnAction">Know More</a>
 			</div> 
 			<div class="order-1 order-md-2 col-md-6 col-lg-7">
 				<img src="images/h1.svg" alt="image" />

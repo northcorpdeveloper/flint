@@ -252,14 +252,15 @@ a:hover {color:#f7941d; text-decoration:none;}
 	font-style: normal;
 	font-weight: 400;
 	font-size: 13px;
-	line-height: 24px;  
+	line-height: 18px;  
 	text-align: center;
 	letter-spacing: 0.2px;
 	color: #212529;
 	display: flex;
 	align-items: center;
+	text-align: left;
 	width: 100%;
-	padding: 5px  15px;
+	padding: 8px 35px 8px 15px;
 }
 .navigation .navbar-nav  > li > .dropdown-menu > li a.dropdown-toggle::before  {
 	font-size: 16px;
@@ -772,6 +773,17 @@ ul.listingUi li {
 	color: #252B42;
 	text-align: center;
 }
+.ourClients .sectionHeading p {
+	margin: 0 auto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 150%; 
+	text-align: center;
+	letter-spacing: 0.2px; 
+	color: #545454;
+	max-width: 740px;
+}
 .ourClients img {
 	width: auto !important;
 }
@@ -802,18 +814,7 @@ ul.listingUi li {
 .ourClients .owl-dot.active { 
 	background: #E5B63F;
 	border: 0.5px solid #E5B63F;
-}
-.ourClients .sectionHeading p {
-	margin: 0 auto;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 150%; 
-	text-align: center;
-	letter-spacing: 0.2px; 
-	color: #545454;
-	max-width: 740px;
-}
+} 
 .ourClients .container {
 	max-width: 1100px;
 	width: 100%;
@@ -969,8 +970,319 @@ footer a i {
 .copyright a:hover{  
 	color: #D3B10A;
 }
+/******** End Home CSS **********************************************************/
+
+.innerBanner  { 
+	padding: 60px 0;
+	background: url('../images/innerBannerBg.svg') no-repeat center / cover;
+	position: relative;
+	z-index: 0;
+	text-align: center;
+	min-height: 300px;
+	padding: 0 30px;
+	display: flex;
+	align-items: center;
+	text-align: left;
+}
+.innerBanner .container-fluid{
+	padding: 0 60px;
+	max-width: 1320px;
+	width: 100%;
+}
+.innerBanner h2{ 
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 48px; 
+	letter-spacing: 0.2px; 
+	color: #FFFFFF; 
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin: 0;
+	max-width: 430px;
+}
+.innerBanner h2 span{ 
+	font-style: normal;
+	display: block;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 30px; 
+	letter-spacing: 0.2px; 
+	color: #FFFFFF; 
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin: 0 0 5px;
+}
+
+.serviceContent  { 
+	padding: 60px 0 80px;
+	background: #fff; 
+}
+.serviceContent .container-fluid{ 
+	max-width: 1200px;
+	width: 100%;
+}
+.serviceContent p{ 
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 151.52%; 
+	color: #666C89; 
+}
+.whyConsulting  { 
+	padding: 30px 0 40px;
+	background: #F4F4F4; 
+	position: relative;
+	z-index: 0;
+}
+.whyConsulting:before  {  
+	content: ""; 
+	background: #007F8F; 
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 27.5%;
+	right: auto;
+	z-index: 0;
+	position: absolute;
+}
+.whyConsulting .container-fluid{ 
+	padding: 0 60px;
+	max-width: 1320px;
+	width: 100%;
+}
+
+.whyConsulting img{  
+	width: 100%;
+	margin-top: 40px;
+}
+.benefitBox {
+	padding-left: 45px;
+}
+.benefitBox h3{ 
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 44px; 
+	letter-spacing: 0.2px; 
+	color: #1C1F35;  
+	margin: 0 0 15px; 
+}
+.benefitBox span{ 
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px; 
+	color: #1C1F35;
+	background: rgba(232, 232, 232, 0.5); 
+	position: relative;
+	padding: 5px 15px;
+	display: table;
+	margin-bottom: 15px;
+}
+.benefitBox span::before{  
+	background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+	position: absolute;
+	width: 4px;
+	content: "";
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+.benefitBox p { 
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 151.52%; 	
+	color: #666C89;
+}
+.benefitListing {
+	display: flex;
+	list-style: none;
+	margin:30px 0;
+	padding: 0;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+.benefitListing li {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	gap: 10px;
+	width: calc(50% - 15px);
+}
+.benefitListing li img {
+	width: 55px;
+	margin: 0;
+}
 
 
+.digitalConsulting {
+	background: #fff;
+	padding: 120px 0;
+}
+.digitalConsulting .container-fluid{ 
+	max-width: 1320px;
+	padding: 0 60px;
+	width: 100%;
+}
+.digitalConsulting .sectionHeading {
+	margin-bottom: 25px;
+}
+.digitalConsulting .sectionHeading h2 {
+	margin: 0 0 5px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 44px; 
+	text-align: center; 
+	color: #1C1F35;
+}
+.digitalConsulting .sectionHeading p {
+	margin: 0 auto;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%; 
+	text-align: center; 
+	color: #232323;
+	max-width: 940px;
+}
+
+.digitalConsulting img {
+	width: 100%;
+	margin: 0 0 20px;
+	display: block;
+}
+.digitalConsulting  h3 {
+	margin: 0 0 10px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%; 
+	color: #232323;
+}
+.digitalConsulting  p {
+	margin: 0 0 25px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%; 
+	color: #232323;
+}
+
+.digitalConsulting a {
+	margin: 0 0 0;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 150%; 
+	background: linear-gradient(90deg, #007F8F -2.35%, #005459 102.66%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;position: relative;
+}
+.digitalConsulting a:after {
+    content: "";
+    transition: .2s all ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    left: 50%;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); 
+}
+.digitalConsulting a:hover:after {
+   background-color:#D3B10A ;
+   width: 100%;
+}
+.digitalConsulting a i {
+	margin: 0 0 0 10px; 
+}
+
+
+.relatedProject {
+	background: #fff;
+	padding: 40px  0 120px;
+}
+.relatedProject .container-fluid{ 
+	max-width: 1320px;
+	padding: 0 60px;
+	width: 100%;
+}
+.relatedProject .sectionHeading {
+	margin-bottom: 25px;
+}
+.relatedProject .sectionHeading h2 {
+	margin: 0 0 5px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 44px; 
+	text-align: center; 
+	color: #1C1F35;
+}
+.relatedProject .sectionHeading p {
+	margin: 0 auto;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%; 
+	text-align: center; 
+	color: #232323;
+	max-width: 940px;
+}
+
+.relatedProject img {
+	width: 100%;
+	margin: 0 0 ;
+	display: block;
+}
+.imgBox {
+	position: relative;
+	overflow: hidden;
+}
+.overlayBox {
+	position: absolute;
+	top:25px;
+	bottom:25px;
+	left:25px;
+	right:25px;
+	z-index: 1;
+	transition: all 0.3s ease;
+	background: rgba(0, 127, 143, 0.87);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	transform: translateY(120%);
+}
+.imgBox:hover .overlayBox {
+	transform: translateY(0%);
+}
+.relatedProject  p {
+	margin: 0 auto;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 150%; 
+	text-align: center; 
+	color: #FFFFFF;
+}
+.relatedProject a {  
+	color: #fff;
+	margin: 0 0 7px;
+	display: block;
+}
+.relatedProject a i{ 
+	font-size: 34px;  
+}
 
 
 
@@ -1184,6 +1496,44 @@ footer a i {
 		top: 9px;
 		content: "\f106";
 	}
+	.whyConsulting::before {
+		content: "";
+		background: #007F8F;
+		top: 0;
+		left: 0;
+		bottom: auto;
+		width: 100%;
+		right: 0;
+		z-index: 0;
+		position: absolute;
+		height: 45vw;
+	}
+	.benefitBox {
+		padding-left: 0;
+		padding-top: 40px;
+	}
+	.benefitListing li {
+		display: flex;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+		gap: 10px;
+		width: calc(33% - 15px);
+	}
+	.imgBox { 
+		margin-bottom: 30px;
+	}
+	.digitalConsulting a {
+		margin-bottom: 50px;
+	}
+	.digitalConsulting {
+		background: #fff;
+		padding: 60px 0;
+	}
+	.relatedProject {
+		background: #fff;
+		padding: 0 0 60px;
+	}
 }
 @media only screen and (max-width: 767px) {
 	.weHelpYou .row:nth-child(2n) {
@@ -1220,6 +1570,22 @@ footer a i {
 	}
 	.socialIcon { 
 		gap: 10px; 
+	}
+	.benefitListing li { 
+		width: calc(50% - 15px);
+	}
+	.whyConsulting .container-fluid {
+		padding: 0 15px; 
+	}
+	.digitalConsulting .container-fluid {
+		padding: 0 15px; 
+	}
+	.relatedProject .container-fluid {
+		padding: 0 15px; 
+	}
+	.serviceContent {
+		padding: 50px 0 40px;
+		background: #fff;
 	}
 }
 @media only screen and (max-width: 575px) {
@@ -1266,6 +1632,12 @@ footer a i {
 		flex: 0 0 70%;
 		max-width: 70%;
 	}
+	.innerBanner { 
+		padding: 0 15px; 
+	}
+	.innerBanner .container-fluid {
+		padding: 0; 
+	}
 }
 @media only screen and (max-width: 479px) {
 	.happyCustomers .happyCustomersOwl .items {
@@ -1304,6 +1676,9 @@ footer a i {
 	.mainBanner .captionBox {
 		padding: 0 45px;
 	}
+	.benefitListing li {
+		width: 100%;
+	}
 }
 @media only screen and (max-width: 380px) { 
 	.linkWarp .twoCol {
@@ -1337,6 +1712,10 @@ footer a i {
 	}
 	.sectionHeading p { 
 		font-size: 18px !important; 
+	}
+	.innerBanner h2 { 
+		font-size: 32px;
+		line-height: 42px; 
 	}
 }
 /******** End Media CSS **********************************************************/
