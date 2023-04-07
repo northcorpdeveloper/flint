@@ -27,12 +27,6 @@ font-style: normal;
 .nav-item{white-space: nowrap;}
 .mainBanner .captionBox p {
 max-width:750px;}
-
-
-
-.innerBanner h2 {
-    max-width: 750px !important;
-}
 </style>
 </head>
 <body>   
@@ -449,15 +443,9 @@ support. We specialize in areas, such as:</p>
 		<div class="row"> 
 			<div class="col-sm-12">  
 				<div class="clientsImg clientsOwl">
-					<img src="images/c1.png" alt="client" />
+			
 					<img src="images/voda2.png"style="height:100px;"  alt="client" />
-					<img src="images/c2.png" alt="client" />
-					<img src="images/c3.png" alt="client" />
-					<img src="images/c4.png" alt="client" />
-					<img src="images/c5.png" alt="client" />
-					<img src="images/c6.png" alt="client" />
-					<img src="images/c3.png" alt="client" />
-					<img src="images/c4.png" alt="client" />
+					
 					<img src="images/voda.png" style="height:70px;" alt="client" />
 					<img src="images/tim.png" style="height:120px;" alt="client" />
 					<img src="images/san.png" style="height:120px;" alt="client" />
@@ -466,7 +454,24 @@ support. We specialize in areas, such as:</p>
 					<img src="images/inm.png" style="height:120px;" alt="client" />
 					<img src="images/ci.png" style="height:70px;" alt="client" />
 					<img src="images/ess.png" style="height:140px;" alt="client" />
-					
+					<img src="images/aff.png" style="height:70px;" alt="client" />
+					<img src="images/blu.png" style="height:70px;" alt="client" />
+					<img src="images/bt.png" style="height:70px;" alt="client" />
+					<img src="images/cisco.png" style="height:40px;" alt="client" />
+					<img src="images/cit.png" style="height:160px;" alt="client" />
+					<img src="images/dai.png" style="height:70px;" alt="client" />
+					<img src="images/ee.png" style="height:70px;" alt="client" />
+					<img src="images/eric.png" style="height:70px;" alt="client" />
+					<img src="images/ess.png" style="height:70px;" alt="client" />
+					<img src="images/inm.png" style="height:70px;" alt="client" />
+					<img src="images/juni.png" style="height:70px;" alt="client" />
+					<img src="images/liq.jpg" style="height:140px;" alt="client" />
+					<img src="images/manx.jpg" style="height:70px;" alt="client" />
+					<img src="images/stc.png" style="height:50px;" alt="client" />
+					<img src="images/tde.jpg" style="height:45px;" alt="client" />
+					<img src="images/tel.png" style="height:70px;" alt="client" />
+					<img src="images/tele.png" style="height:70px;" alt="client" />
+					<img src="images/ci.png" style="height:70px;" alt="client" />
 					
 				</div>
 			</div>  
