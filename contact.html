@@ -7,7 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/font-4-6-awesome.min.css" type="text/css"> 
+<link rel="stylesheet" href="css/font-4-6-awesome.min.css" type="text/css">
+<link type="text/css" rel="stylesheet" href="css/animate.css" />
+<link href="css/owl.carousel.css" rel="stylesheet">
+<link href="css/owl.theme.css" rel="stylesheet">  
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 <title>Contact Us</title>
@@ -159,7 +162,7 @@
 	</div>
 </section>
 <!-- End Inner Banner -->    
-<section class="contactForm wow fadeInUp"> 
+<section class="contactForm  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.0s">
 	<div class="containerFluid">
 		<div class="common sectionHeading">
 			<h2>Contact Us</h2>
@@ -213,14 +216,14 @@
 		</form> 
 	</div> 
 </section>  
-<section class="mapBox wow fadeInUp">  
+<section class="mapBox  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.0s"
 	<div class="common sectionHeading">
 		<h2>Our Presence in This World</h2>
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
 	</div>  
 	<img src="images/map.svg" alt="">  
 </section> 
-<section class="addressInfo wow fadeInUp"> 
+<section class="addressInfo  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.0s">
 	<div class="containerFluid">
 		<div class="row">
 			<div class="col-md-12">
@@ -494,6 +497,22 @@
 <script	src="js/jquery-2.2.4.min.js" ></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script> 
+var wow = new WOW(
+  { 
+    boxClass:     'wow',      // animated element css class (default is wow)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null // optional scroll container selector, otherwise use window
+  }
+);           new WOW().init();	  
+</script>
 <script>  
 (function($){
 	// $('.navigation a.dropdown-toggle').on('click', function(e) { 
