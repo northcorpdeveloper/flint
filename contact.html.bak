@@ -158,25 +158,30 @@
 <!-- Strat Inner Banner -->
 <section class="innerBanner blogBg">
 	<div class="container-fluid">
-		<h2><span>The Blog</span>Stories & ideas</h2>
+		<!--<h2><span>The Blog</span>Stories & ideas</h2>-->
 	</div>
 </section>
 <!-- End Inner Banner -->    
-<section class="contactForm  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.0s"
+<section class="contactForm  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.0s">
 	<div class="containerFluid">
 		<div class="common sectionHeading">
 			<h2>Contact Us</h2>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+			<p>Select your purpose and contact us today and let us support you on your road to success!</p>
 		</div> 
+		
+		
+		
 		<form>
 			<div class="row">
 				<div class="form-group col-md-4">
 					<select  class="form-control"  required>
-						<option>Select Your Purpose *</option>
-						<option>2</option>
-						<option>3</option>
-						<option>4</option>
-						<option>5</option>
+						<option>Select Your Purpose: *</option>
+						<option>Sales Enquiry</option>
+						<option>Customer Support Enquiry</option>
+						<option>Partners & alliances Enquiry</option>
+						<option>Vendor Hire request Enquiry</option>
+						<option>Careers/HR Enquiry</option>
+						<option>Privacy Policy Enquiry</option>
 					  </select>
 				  
 				</div>
@@ -202,8 +207,8 @@
 			<div class="row contactInfo">
 				<div class="col-md-6">
 					<div class="connecttUs">
-						<a href="mailto:Contact@logistics.com"><img src="images/mail.svg" alt="">Contact@logistics.com</a>
-						<a href="callto: (00) 112 365 489"><img src="images/phone.svg" alt=""> (00) 112 365 489</a>
+						<a href="mailto:Sub Saharan Africa"><img src="images/mail.svg" alt="">Sub Saharan Africa</a>
+						<a href="callto: +44 1923 677733"><img src="images/phone.svg" alt=""> +44 1923 677733</a>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -218,25 +223,25 @@
 </section>  
 <section class="mapBox  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.0s"
 	<div class="common sectionHeading">
-		<h2>Our Presence in This World</h2>
-		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+		<h2 style="text-align: center;">Our Presence in This World</h2>
+		<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p> -->
 	</div>  
 	<img src="images/map.svg" alt="">  
 </section> 
-<section class="addressInfo  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.0s"
+<section class="addressInfo  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.0s">
 	<div class="containerFluid">
 		<div class="row">
 			<div class="col-md-12">
 				<ul class="nav nav-tabs" id="myTab" role="tablist">
 					<li class="nav-item" role="presentation">
-					  <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">United States</button>
+					  <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#tab1" type="button" role="tab" aria-controls="home" aria-selected="true">Middle list & India</button>
 					</li>
 					<li class="nav-item" role="presentation">
-					  <button class="nav-link" id="Canada-tab" data-toggle="tab" data-target="#Canada" type="button" role="tab" aria-controls="Canada" aria-selected="false">Canada</button>
+					  <button class="nav-link" id="Canada-tab" data-toggle="tab" data-target="#tab2" type="button" role="tab" aria-controls="Canada" aria-selected="false">South Africa</button>
 					</li>
 					<li class="nav-item" role="presentation">
-					  <button class="nav-link" id="Europe-tab" data-toggle="tab" data-target="#Europe" type="button" role="tab" aria-controls="Europe" aria-selected="false">Europe</button>
-					</li>
+					  <button class="nav-link" id="Europe-tab" data-toggle="tab" data-target="#tab3" type="button" role="tab" aria-controls="Europe" aria-selected="false">Sub Saharan Africa</button>
+					</li><!--
 					<li class="nav-item" role="presentation">
 						<button class="nav-link" id="Africa-tab" data-toggle="tab" data-target="#Africa" type="button" role="tab" aria-controls="Africa" aria-selected="false">Middle East & Africa</button>
 					</li>
@@ -248,39 +253,54 @@
 					</li>
 					<li class="nav-item" role="presentation">
 						<button class="nav-link" id="Australia-tab" data-toggle="tab" data-target="#Australia" type="button" role="tab" aria-controls="Australia" aria-selected="false">Australia</button>
-					</li>
+					</li>-->
 				  </ul>
 				  <div class="tab-content" id="myTabContent">
-					<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+					<div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="home-tab">
 						<div class="addressWrap">
 							<div class="addressBox">
-								<h2>Company Name & Title</h2>
-								<p>12th Floor, Broadgate Tower ,</p>
+								<h2>Kingdom of Saudi Arabia</h2>
+								<h2>Flint Consulting Al Saudia Co.</h2>
+								<p>Prince Turki Bin Abdulaziz Athani Street,</p>
+								<p>Building No.2518, PO BOX 12283,</p>
+								<p>Al Muruj, Riyadh,</p>
+								<p>Kingdom of Saudi Arabia</p>
 								<p>20 Primrose Street, </p>
-								<p>Kingston, New York 12401, USA</p>
-							</div>
+								<p>Phone: +966 11 466 00 35</p>
+							</div>		
 							<div class="addressBox">
-								<h2>Company Name & Title</h2>
-								<p>12th Floor, Broadgate Tower ,</p>
-								<p>20 Primrose Street, </p>
-								<p>Kingston, New York 12401, USA</p>
-							</div>
+								<h2>Dubai</h2>
+								<h2>Flint International IT Services</h2>
+								<p>Al Khaimah building II, Office #F4-05</p>
+								<p>Al Barsha 1, Dubai</p>
+								<p>United Arab Emirates</p>
+								<p>Flint International DWC-LLC</p>
+								<p>P.O Box 390667, Dubai</p>
+								<p>United Arab Emirates</p>
+								
+							</div>							
 							<div class="addressBox">
-								<h2>Company Name & Title</h2>
-								<p>12th Floor, Broadgate Tower ,</p>
-								<p>20 Primrose Street, </p>
-								<p>Kingston, New York 12401, USA</p>
+								<h2>India</h2>
+								<h2>Flint Software Systems Private Limited</h2>
+								<p>Flat #201, 2nd Floor, Om Sai Arcade,</p>
+								<p>Lower Tank Bund, Hyderabad, Telangana – 500 029</p>
+								<p>India</p>
 							</div>
 						</div>
 					</div> 
-					<div class="tab-pane fade" id="Canada" role="tabpanel" aria-labelledby="Canada-tab">
+					<div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="Canada-tab">
 						<div class="addressWrap">
 							<div class="addressBox">
-								<h2>Company Name & Title</h2>
-								<p>12th Floor, Broadgate Tower ,</p>
-								<p>20 Primrose Street, </p>
-								<p>Kingston, New York 12401, USA</p>
-							</div>
+								<h2>Flint SA (PTY) Ltd</h2>
+								<p>The Ingress</p>
+								<p>Building 2, Ground Floor, Office 2A</p>
+								<p>23 Magwa Crescent</p>
+								<p>Waterfall City</p>
+								<p>Johannesburg</p>
+								<p>South Africa</p>
+								<p>2066</p>
+								<p>Phone: +27 76 419 75 26</p>
+							</div>							<!--
 							<div class="addressBox">
 								<h2>Company Name & Title</h2>
 								<p>12th Floor, Broadgate Tower ,</p>
@@ -292,31 +312,37 @@
 								<p>12th Floor, Broadgate Tower ,</p>
 								<p>20 Primrose Street, </p>
 								<p>Kingston, New York 12401, USA</p>
-							</div>
+							</div> -->
 						</div>
 					</div>
-					<div class="tab-pane fade" id="Europe" role="tabpanel" aria-labelledby="Europe-tab">
+					<div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="Europe-tab">
 						<div class="addressWrap">
 							<div class="addressBox">
-								<h2>Company Name & Title</h2>
-								<p>12th Floor, Broadgate Tower ,</p>
-								<p>20 Primrose Street, </p>
-								<p>Kingston, New York 12401, USA</p>
-							</div>
+								<h2>Flint Consulting Africa</h2>
+								<p>Block A, Castlewalk Corporate Park,</p>
+								<p>Erasmusklook</p>
+								<p>0181 Pretoria</p>
+								<p>South Africa</p>
+								<p>Phone: +44 1923 677 733</p>
+							</div>								
 							<div class="addressBox">
+								<h2>Botswana</h2>
+								<h2>Flint Botswana (Proprietary) Limited</h2>
+								<p>BDO House, 28 Kgale Mews</p>
+								<p>Gaborone International Finance Park</p>
+								<p>PO Box 1839, Gaborone</p>
+								<p>Botswana</p>
+							</div>							
+							
+							
+						<!--	<div class="addressBox">
 								<h2>Company Name & Title</h2>
 								<p>12th Floor, Broadgate Tower ,</p>
 								<p>20 Primrose Street, </p>
 								<p>Kingston, New York 12401, USA</p>
-							</div>
-							<div class="addressBox">
-								<h2>Company Name & Title</h2>
-								<p>12th Floor, Broadgate Tower ,</p>
-								<p>20 Primrose Street, </p>
-								<p>Kingston, New York 12401, USA</p>
-							</div>
+							</div> -->
 						</div>
-					</div>
+					</div><!--
 					<div class="tab-pane fade" id="Africa" role="tabpanel" aria-labelledby="Africa-tab">
 						<div class="addressWrap">
 							<div class="addressBox">
@@ -404,7 +430,7 @@
 								<p>Kingston, New York 12401, USA</p>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				  </div> 
 			</div>
 		</div>
