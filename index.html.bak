@@ -34,7 +34,7 @@
 
 		.mainBanner .captionBox p {
 			max-width: 750px;
-		}
+		}.mainBanner .captionBox h2 { max-width: 750px; }
 	</style>
 </head>
 

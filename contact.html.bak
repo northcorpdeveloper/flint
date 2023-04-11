@@ -203,11 +203,16 @@
 				<div class="form-group col-md-12">
 					<textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3"></textarea>
 				</div>
+				<div class="form-group col-md-12">
+					<input type="checkbox" ><label class="form-check-label" for="flexCheckDefault">
+   I consent to Flint processing my personal data to repond to my enquiry. Learn more <a href="#" class="bannerAction">here</a>
+  </label>
+				</div>
 			</div>
 			<div class="row contactInfo">
 				<div class="col-md-6">
 					<div class="connecttUs">
-						<a href="mailto:Sub Saharan Africa"><img src="images/mail.svg" alt="">Sub Saharan Africa</a>
+						<a href="mailto:hello@flintmail.com"><img src="images/mail.svg" alt=""> hello@flintmail.com</a>
 						<a href="callto: +44 1923 677733"><img src="images/phone.svg" alt=""> +44 1923 677733</a>
 					</div>
 				</div>
