@@ -221,7 +221,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="images/Slider_image_no_3.jpeg" class="d-block w-100" alt="..." />
+				<img src="images/slide_3_aa.jpeg" class="d-block w-100" alt="..." />
 				<div class="captionBox">
 					<h2>Flint's uniqueness in the KSA market</h2>
 					<!--
@@ -294,15 +294,11 @@
 
 			<div class="row align-items-center">
 				<div class="col-md-6 col-lg-7">
-					<img src="images/h2.svg" alt="image" />
+					<img src="images/StrategicResourcing.jpeg" alt="image" />
 				</div>
 				<div class="col-md-6 col-lg-5">
 					<h3>Strategic Resourcing</h3>
 					<p style="text-align: justify;">When you hire us for strategic resourcing services requirements, we allow you to focus on your core competencies as we manage your workforce. If you're operating with limited HR resources, it allows you to tap into the expertise of experienced professionals without having to invest in building your own internal HR capabilities. We manage everything from talent acquisition to workforce planning, employee engagement, and retention. The goal of strategic resourcing is to help organizations build a competitive edge by hiring and retaining the best talent while managing costs and mitigating risks. You get abilities such as:
-
-
-
-
 					</p>
 					<ul class="listingUi">
 						<li>Managed changing resource needs</li>
