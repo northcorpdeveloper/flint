@@ -6,8 +6,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Bootstrap CSS -->
+<!-- Bootstrap CSS -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/font-4-6-awesome.min.css" type="text/css"> 
+<link rel="stylesheet" href="css/font-4-6-awesome.min.css" type="text/css">
+<link type="text/css" rel="stylesheet" href="css/animate.css" />
+<link href="css/owl.carousel.css" rel="stylesheet">
+<link href="css/owl.theme.css" rel="stylesheet">  
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 <title>Services</title>
@@ -191,14 +195,14 @@
 </nav>   
 <!-- End Navbar --> 
 <!-- Strat Inner Banner -->
-<section class="dcinnerBanner">
+<section class="dcinnerBanner wow fadeInUp"> 
 	<div class="container-fluid">
 		<h2><!--<span>THE Consulting</span>-->Power your business with a modern data center that's cloud-ready, intelligent, green, and built for the future.</h2>
 	</div>
 </section>
 <!-- End Inner Banner --> 
  <!-- Strat Services Content -->
-<section class="serviceContent">
+<section class="serviceContent wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 	<div class="container-fluid">
 		<p style="text-align: justify;">Designing and building an intelligent and modernistic data center is an impressive and painstaking achievement, not achievable by everyone. It’s a critical piece of infrastructure that powers and hosts the resources and data required to run your operations and serve customers. So to ensure success in your journey of building a modern data center, we take a comprehensive yet phased approach to carefully plan, design, and build it. Right from assessing your requirements - cooling, capacity, connectivity options, and physical security to design options - a modular or traditional build approach, we offer end-to-end services.<br><br>Based on the size and scale of the data center, we also give insights about access to power, and fiber connectivity, and help customers obtain necessary regulatory approvals and meet compliances. We also help in the implementation of infrastructure design - cooling, power, networks, cabling, physical security, and so on. 
 
@@ -207,7 +211,7 @@
 </section>
 <!-- End Services Content --> 
  <!-- Strat Why Consulting -->
- <section class="whyConsulting">
+ <section class="whyConsulting wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.0s">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-5">
@@ -237,7 +241,7 @@
 </section>
 <!-- End Why Consulting --> 
 <!-- Start digitalConsulting --> 
-<section class="digitalConsulting wow fadeInUp"> 
+<section class="digitalConsulting wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.0s">
 	<div class="container-fluid">
 		<div class="sectionHeading">
 			<h2>Data center design and build ecosystem </h2>
@@ -442,6 +446,22 @@
 <script	src="js/jquery-2.2.4.min.js" ></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script> 
+var wow = new WOW(
+  { 
+    boxClass:     'wow',      // animated element css class (default is wow)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null // optional scroll container selector, otherwise use window
+  }
+);           new WOW().init();	  
+</script> 
 <script>  
 (function($){
 	// $('.navigation a.dropdown-toggle').on('click', function(e) { 

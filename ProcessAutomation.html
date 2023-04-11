@@ -6,8 +6,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Bootstrap CSS -->
+<!-- Bootstrap CSS -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/font-4-6-awesome.min.css" type="text/css"> 
+<link rel="stylesheet" href="css/font-4-6-awesome.min.css" type="text/css">
+<link type="text/css" rel="stylesheet" href="css/animate.css" />
+<link href="css/owl.carousel.css" rel="stylesheet">
+<link href="css/owl.theme.css" rel="stylesheet">  
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 <title>Services</title>
@@ -190,14 +194,14 @@
 </nav>   
 <!-- End Navbar --> 
 <!-- Strat Inner Banner -->
-<section class="painnerBanner">
+<section class="painnerBanner wow fadeInUp"> 
 	<div class="container-fluid">
 		<h2><!--<span>THE Consulting</span>-->Unlock your potential with our advanced, RPA-enabled, end-to-end process automation solutions, and experience a new level of growth.</h2>
 	</div>
 </section>
 <!-- End Inner Banner --> 
  <!-- Strat Services Content -->
-<section class="serviceContent">
+<section class="serviceContent wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 	<div class="container-fluid">
 		<p style="text-align: justify;">Process Automation refers to the implementation of advanced technologies to streamline and automate business processes enabling businesses to reduce, increase efficiency and enhance productivity. It's critical for one's digital transformation drive as it leverages technologies like AI, RPA, and ML, and approaches like RPA and Straight-Through-Processing. enabling organizations to reduce costs, increase productivity, and improve efficiency. <br> <br>In addition, for a successful process automation, RPA is important because it can automate routine and repetitive tasks, freeing up human employees to focus on more value-added tasks. Also, It reduces the risk of errors and rework, performs tasks much faster than humans, reduces the need for manual labor, and can be integrated with existing technologies, without changing the existing workflows.
 
@@ -206,7 +210,7 @@
 </section>
 <!-- End Services Content --> 
  <!-- Strat Why Consulting -->
- <section class="whyConsulting">
+ <section class="whyConsulting wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.0s">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-5">
@@ -238,7 +242,7 @@
 </section>
 <!-- End Why Consulting --> 
 <!-- Start digitalConsulting --> 
-<section class="digitalConsulting wow fadeInUp"> 
+<section class="digitalConsulting wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.0s">
 	<div class="container-fluid">
 		<div class="sectionHeading">
 			<h2>Process automation ecosystem</h2>
@@ -438,6 +442,22 @@
 <script	src="js/jquery-2.2.4.min.js" ></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script> 
+var wow = new WOW(
+  { 
+    boxClass:     'wow',      // animated element css class (default is wow)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null // optional scroll container selector, otherwise use window
+  }
+);           new WOW().init();	  
+</script> 
 <script>  
 (function($){
 	// $('.navigation a.dropdown-toggle').on('click', function(e) { 
