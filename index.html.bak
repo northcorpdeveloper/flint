@@ -133,7 +133,7 @@ max-width:750px;}
 					<a class="dropdown-toggle" href="#" id="WhatWeThink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">What We Think</a>
 					<ul class="dropdown-menu" aria-labelledby="WhatWeThink">
 						
-						<li class="nav-item"><a href="#">Blogs</a></li>
+						<li class="nav-item"><a href="blo.html">Blogs</a></li>
 						<li class="nav-item"><a href="#">Case Studies</a></li>
 						<li class="nav-item"><a href="#">Insights</a></li>						
 					</ul>
@@ -196,16 +196,16 @@ max-width:750px;}
 		<div class="carousel-item">
 			<img src="images/Slider_image_no_3.jpeg" class="d-block w-100" alt="..." /> 
 			<div class="captionBox">
-				<h2>Network Infrastructure</h2>
-				<p>Design and build a smart, efficient, intelligent and state of the art IT infrastructure that is resilient, secure, data driven to meet your growing business need and current digital challenges.</p> 
+				<h2>Flint's uniqueness in the KSA market</h2><!--
+				<p>Design and build a smart, efficient, intelligent and state of the art IT infrastructure that is resilient, secure, data driven to meet your growing business need and current digital challenges.</p> -->
 				<a href="#" class="bannerAction">View More</a> 
 			</div> 
 		</div>
 		<div class="carousel-item">
 			<img src="images/mans.jpeg" class="d-block w-100" alt="..." /> 
 			<div class="captionBox">
-				<h2>Managed Services</h2>
-				<p>Get a tailored-made, outcome-based, data-driven ecosystem - DevOps, Infrastructure, Support, Skilled Workforce to optimize your operational cost, TAT, Customer Experience and mitigate risks and make yourself 'Disruption Proof'.</p> 
+				<h2>Insights based on analytics and machine learning helps CXO make better decisions</h2><!--
+				<p>Get a tailored-made, outcome-based, data-driven ecosystem - DevOps, Infrastructure, Support, Skilled Workforce to optimize your operational cost, TAT, Customer Experience and mitigate risks and make yourself 'Disruption Proof'.</p>  -->
 				<a href="#" class="bannerAction">View More</a> 
 			</div> 
 		</div>
@@ -537,7 +537,7 @@ support. We specialize in areas, such as:</p>
 				<a href="#">About us</a> 
 				<a href="#">Insights</a> 
 				<a href="#">Careers</a>  
-				<a href="#">Contact Us</a>   
+				<a href="contact.html">Contact Us</a>   
 			</div> 
 			<div class="order-sm-2 col-sm-5 order-md-4 col-md-4  col-lg-3 col-xl-3 upMargin"> 
 				<h2>FLINT INTERNATIONAL</h2>
