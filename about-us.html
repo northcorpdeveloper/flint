@@ -13,7 +13,7 @@
 		rel="stylesheet">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-	<title>Services</title>
+	<title>About-us</title>
 
 
 	<style>
@@ -86,6 +86,38 @@
 
 .swiper-button-next {
     color:  #545454;    margin-top: -55px;
+}
+
+.ourdigitalConsulting {
+    background: #fff;
+    padding: 50px 0;
+}.ourdigitalConsulting .container-fluid {
+    max-width: 1320px;
+    padding: 0 60px;
+    width: 100%;
+}.ourdigitalConsulting .sectionHeading p {
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #232323;
+    max-width: 940px;
+}.ourdigitalConsulting img {
+    width: 100%;
+    margin: 0 0 20px;
+    display: block;
+}.ourdigitalConsulting .sectionHeading h2 {
+    margin: 0 0 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #1C1F35;
+}.ourdigitalConsulting .sectionHeading {
+    margin-bottom: 25px;
 }
 	</style>
 </head>
@@ -253,7 +285,7 @@
 	<!-- End Inner Banner -->
 	<!-- Strat Services Content -->
 
-	<section class="whyConsulting1">
+	<section class="whyConsulting1" style="padding: 40px 0 0 0;">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-7">
@@ -283,7 +315,7 @@
 
 
 	<!-- Start digitalConsulting -->
-	<section class="digitalConsulting wow fadeInUp">
+	<section class="ourdigitalConsulting wow fadeInUp">
 		<div class="container-fluid">
 			<div class="sectionHeading">
 				<h2>Our Digital Consulting Ecosystem </h2>
@@ -444,6 +476,48 @@
 			</div>
 		</div>
 	</section>
+	
+	<!-- Start Our Offices --> 
+<section class="ourOffices wow fadeInUp" style=" MARGIN-BOTTOM: 60PX;">
+	<div class="sectionHeading">
+		<h2>Our Offices</h2>
+		<p>With our offices in 40+ countries and 15 local offices across continents for local market insights, we are relentlessly serving our 50 + customers to provide strong customer relationships, technical expertise, and a drive for innovation.</p>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-lg-3"> 
+				<div class="stateBox">
+					<img src="images/icon1.svg" alt="Icon" />
+					<h3>2,500+</h3>
+					<p>Staff</p>
+				</div>  
+			</div>  
+			<div class="col-md-6 col-lg-3"> 
+				<div class="stateBox">
+					<img src="images/icon2.svg" alt="Icon" />
+				<h3>20+</h3>
+				<p>Years in the ICT Industry</p>
+				</div>  
+			</div> 
+			<div class="col-md-6 col-lg-3"> 
+				<div class="stateBox">
+					<img src="images/icon3.svg" alt="Icon" />
+					<h3>40+</h3>
+					<p>Countries</p>
+				</div>  
+			</div> 
+			<div class="col-md-6 col-lg-3"> 
+				<div class="stateBox">
+					<img src="images/icon4.svg" alt="Icon" />
+					<h3>50+</h3>
+					<p>Satisfied Customers</p>
+				</div>  
+			</div>  
+		</div>
+	</div>
+	<a href="#">View Location</a>
+</section>
+<!-- End Our Offices --> 
 	<!-- Start Footer -->
 	<footer>
 		<div class="container-fluid">
@@ -571,7 +645,9 @@
 			navigation: {
 				nextEl: ".swiper-button-next",
 				prevEl: ".swiper-button-prev",
-			},
+			},autoplay: {
+    delay: 1000,
+  },
 			 // Responsive breakpoints
 			  breakpoints: {
 				// when window width is >= 320px

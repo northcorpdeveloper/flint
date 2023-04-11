@@ -29,7 +29,7 @@
 <!-- Strat Navbar -->
 <nav class="navbar navigation navbar-expand-lg navbar-light">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="#"><img src="images/logo.svg" alt="Flint Logo" /></a>
+		<a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="Flint Logo" /></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -139,7 +139,7 @@
 				<li class="nav-item dropdown">
 					<a class="dropdown-toggle" href="#" id="Industries" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About us</a>
 					<ul class="dropdown-menu" aria-labelledby="Industries">						
-						<li class="nav-item"><a href="#">Our Company</a></li>
+						<li class="nav-item"><a href="about-us.html">Our Company</a></li>
 						<li class="nav-item"><a href="#">Our Journey</a></li>
 						<li class="nav-item"><a href="#">Our Leadership</a></li>	
 						<li class="nav-item dropdown menuLabel1">
@@ -240,7 +240,7 @@
 				  <li>Chatbot and robotics</li>
 				</ul></p>
 				
-				<a href="#">View More <i class="fa fa-arrow-right"></i></a>  
+				<a href="ProcessAutomation.html">View More <i class="fa fa-arrow-right"></i></a>  
 			</div> 
 			<div class="col-lg-4">  
 				<img src="images/d3.svg" alt="Icon" /> 

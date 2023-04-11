@@ -143,7 +143,7 @@ max-width:750px;}
 				<li class="nav-item dropdown">
 					<a class="dropdown-toggle" href="#" id="Industries" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About us</a>
 					<ul class="dropdown-menu" aria-labelledby="Industries">						
-						<li class="nav-item"><a href="#">Our Company</a></li>
+						<li class="nav-item"><a href="about-us.html">Our Company</a></li>
 						<li class="nav-item"><a href="#">Our Journey</a></li>
 						<li class="nav-item"><a href="#">Our Leadership</a></li>	
 						<li class="nav-item dropdown menuLabel1">
@@ -180,21 +180,21 @@ max-width:750px;}
 		<div class="carousel-item active">
 			<img src="images/slide-1.jpg" class="d-block w-100" alt="..." /> 
 			<div class="captionBox">
-				<h2>Digital consulting </h2>
-				<p>Leverage cutting edge technologies, our 20+ years of expertise, local market insights or skilled talent pool to transform, automate businesses processes to scale and seize the opportunities and capture more market share.</p> 
+				<h2> Understand how Flint is helping NEOM</h2>
+				<!--<p>Leverage cutting edge technologies, our 20+ years of expertise, local market insights or skilled talent pool to transform, automate businesses processes to scale and seize the opportunities and capture more market share.</p> -->
 				<a href="services.html" class="bannerAction">View More</a> 
 			</div> 
 		</div> 
 		<div class="carousel-item">
 			<img src="images/slide-2.jpg" class="d-block w-100" alt="..." /> 
 			<div class="captionBox">
-				<h2>Technology enablement</h2>
-				<p>Stay competitive and improve continuously by banking own our broad experience across new and emerging technologies for end to end design & implementation of tech-enabled enterprise-wide solutions.</p> 
+				<h2>Talent and continuous skills upgradation key to a successful digital transformation</h2><!--
+				<p>Stay competitive and improve continuously by banking own our broad experience across new and emerging technologies for end to end design & implementation of tech-enabled enterprise-wide solutions.</p> -->
 				<a href="#" class="bannerAction">View More</a> 
 			</div> 
 		</div> 
 		<div class="carousel-item">
-			<img src="images/man.jpeg" class="d-block w-100" alt="..." /> 
+			<img src="images/Slider_image_no_3.jpeg" class="d-block w-100" alt="..." /> 
 			<div class="captionBox">
 				<h2>Network Infrastructure</h2>
 				<p>Design and build a smart, efficient, intelligent and state of the art IT infrastructure that is resilient, secure, data driven to meet your growing business need and current digital challenges.</p> 
@@ -470,7 +470,7 @@ support. We specialize in areas, such as:</p>
 					<img src="images/stc.png" style="height:50px;" alt="client" />
 					<img src="images/tde.jpg" style="height:45px;" alt="client" />
 					<img src="images/tel.png" style="height:70px;" alt="client" />
-					<img src="images/tele.png" style="height:70px;" alt="client" />
+					<img src="images/tele.jpg" style="height:70px;" alt="client" />
 					<img src="images/ci.png" style="height:70px;" alt="client" />
 					
 				</div>
