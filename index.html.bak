@@ -45,9 +45,9 @@ max-width:750px;}
 						<li class="nav-item dropdown menuLabel1">
 							<a class="dropdown-toggle" href="#" id="Service1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Digital Consulting</a>
 							<ul class="dropdown-menu" aria-labelledby="Service1">
-								<li class="nav-item"><a href="#">Digital Transformation</a></li>
-								<li class="nav-item"><a href="#">Process Automation</a></li>
-								<li class="nav-item"><a href="#">Data Center Build design</a></li>
+								<li class="nav-item"><a href="DigitalTransformation.html">Digital Transformation</a></li>
+								<li class="nav-item"><a href="ProcessAutomation.html">Process Automation</a></li>
+								<li class="nav-item"><a href="DataCenterBuildDesign.html">Data Center Build design</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown menuLabel1">
@@ -133,7 +133,7 @@ max-width:750px;}
 					<a class="dropdown-toggle" href="#" id="WhatWeThink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">What We Think</a>
 					<ul class="dropdown-menu" aria-labelledby="WhatWeThink">
 						
-						<li class="nav-item"><a href="blo.html">Blogs</a></li>
+						<li class="nav-item"><a href="blog.html">Blogs</a></li>
 						<li class="nav-item"><a href="#">Case Studies</a></li>
 						<li class="nav-item"><a href="#">Insights</a></li>						
 					</ul>
@@ -162,6 +162,7 @@ max-width:750px;}
 					</ul>
 				</li>
 				<li class="nav-item"><a href="#">Careers</a></li> 
+				<li class="nav-item"><a href="contact.html">Contact Us</a></li> 
 			</ul>
 		</div> 
 		<div class="searchBox"><a href="#"><i class="fa fa-search"></i></a>  </div>
@@ -169,7 +170,7 @@ max-width:750px;}
 </nav>   
 <!-- End Navbar --> 
 <!-- Strat Banner -->
-<div id="mainBanner" class="mainBanner carousel slide" data-ride="carousel"> 
+<div id="mainBanner" class="mainBanner carousel slide" data-interval="1000" data-ride="carousel"> 
 	<ol class="carousel-indicators">
 		<li data-target="#mainBanner" data-slide-to="0" class="active"></li>
 		<li data-target="#mainBanner" data-slide-to="1"></li>
@@ -222,11 +223,41 @@ max-width:750px;}
 </div>
 <!-- End Banner --> 
 <!-- Start Where can we help you? --> 
-<section class="weHelpYou wow fadeInUp">
+<section class="weHelpYou wow fadeInUp" data-wow-duration="2s" data-wow-delay="1.2s">
 	<div class="container-fluid">
 		<div class="sectionHeading">
 			<h2>Where can we help you?</h2>
 		</div>
+		
+		
+		
+		
+		
+		
+			<div class="row align-items-center">
+			<div class="order-2 order-md-1 col-md-6 col-lg-5">  
+				<h3>Digital Consulting</h3>
+				<p style="text-align: justify;">With years of expertise in digital consulting services, we provide end-to-end solutions - plan, design,
+build, and scale, for businesses worldwide. Our tailored solutions help businesses in the Middle East and
+North Africa to adapt to the rapidly changing digital landscape and stay ahead of the competition.
+With expertise in various industries to help customers build enterprise specific solutions by:</p>  
+				<ul class="listingUi">
+				  <li>Automate business processes</li>
+				  <li>Digital transformation</li>
+				  <li>RPA: Replace the human workforce with automation</li>
+				  <li>IT infrastructure &amp; Operations</li>
+				</ul>
+				<a href="services.html" class="btnAction">Know More</a>
+			</div> 
+			<div class="order-1 order-md-2 col-md-6 col-lg-7">
+				<img src="images/h1.svg" alt="image" />
+			</div> 
+		</div>
+		
+		
+		
+
+		
 		<div class="row align-items-center">
 			<div class="order-2 order-md-1 col-md-6 col-lg-5">  
 				<h3>Digital Consulting</h3>

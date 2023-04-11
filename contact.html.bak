@@ -10,14 +10,14 @@
 <link rel="stylesheet" href="css/font-4-6-awesome.min.css" type="text/css"> 
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
-<title>Blog</title>
+<title>Contact Us</title>
  
 </head>
 <body>   
 <!-- Strat Navbar -->
 <nav class="navbar navigation navbar-expand-lg navbar-light">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="Flint Logo" /></a>
+		<a class="navbar-brand" href="#"><img src="images/logo.svg" alt="Flint Logo" /></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -159,66 +159,254 @@
 	</div>
 </section>
 <!-- End Inner Banner -->    
-<section class="ourBlog wow fadeInUp"> 
+<section class="contactForm wow fadeInUp"> 
 	<div class="containerFluid">
 		<div class="common sectionHeading">
-			<h2>Stories & ideas</h2>
+			<h2>Contact Us</h2>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
-		</div>
-		<div class="row">
-			<div class="col-lg-5 col-xl-6">  
-				<div class="blogBox"> 
-					<img src="images/bl1.svg" alt="Icon" />
-					<div class="blogDetails">
-						<div class="recentWatch">
-							<span>Sales Ops</span>8 min to read
-						</div>
-						<h3>The 3 Best Practices in Sales Prospectiog</h3>
-						<div class="postBy"> 
-							<img src="images/u1.svg" alt="Post">
-							<h4>Mehdi Lerille <span>20 March 2023</span></h4>
-						</div>
-					</div>  
-				</div>  
-			</div> 
-			<div class="col-lg-7 col-xl-6">  
-				<div class="row"> 
-					<div class="col-lg-12">  
-						<div class="blogBox sideImg"> 
-							<img src="images/bl2.svg" alt="Icon" />
-							<div class="blogDetails">
-								<div class="recentWatch">
-									<span>Sales Ops</span>8 min to read
-								</div>
-								<h3>The 3 Best Practices in Sales Prospectiog</h3>
-								<div class="postBy"> 
-									<img src="images/u1.svg" alt="Post">
-									<h4>Mehdi Lerille <span>20 March 2023</span></h4>
-								</div>
-							</div>  
-						</div>
-					</div> 
-					<div class="col-lg-12">  
-						<div class="blogBox sideImg"> 
-							<img src="images/bl2.svg" alt="Icon" />
-							<div class="blogDetails">
-								<div class="recentWatch">
-									<span>Sales Ops</span>8 min to read
-								</div>
-								<h3>The 3 Best Practices in Sales Prospectiog</h3>
-								<div class="postBy"> 
-									<img src="images/u1.svg" alt="Post">
-									<h4>Mehdi Lerille <span>20 March 2023</span></h4>
-								</div>
-							</div>  
-						</div>
-					</div> 
-				</div>  
-			</div>      
-		</div>
-		<a href="#" class="commonActionBtn">Load More</a>
+		</div> 
+		<form>
+			<div class="row">
+				<div class="form-group col-md-4">
+					<select  class="form-control"  required>
+						<option>Select Your Purpose *</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					  </select>
+				  
+				</div>
+				<div class="form-group col-md-4">
+					<input type="text" class="form-control" placeholder="Your Full Name*" required>
+				</div>
+				<div class="form-group col-md-4">
+					<input type="text" class="form-control" placeholder="Phone Number*" required>
+				</div>
+				<div class="form-group col-md-4">
+					<input type="email" class="form-control" placeholder="Email ID*" required>
+				</div>
+				<div class="form-group col-md-4">
+					<input type="text" class="form-control" placeholder="Country*" required>
+				</div>
+				<div class="form-group col-md-4">
+					<input type="text" class="form-control" placeholder="City*" required>
+				</div>
+				<div class="form-group col-md-12">
+					<textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3"></textarea>
+				</div>
+			</div>
+			<div class="row contactInfo">
+				<div class="col-md-6">
+					<div class="connecttUs">
+						<a href="mailto:Contact@logistics.com"><img src="images/mail.svg" alt="">Contact@logistics.com</a>
+						<a href="callto: (00) 112 365 489"><img src="images/phone.svg" alt=""> (00) 112 365 489</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="captchaBox">
+						<img src="images/cap.svg" alt="">
+					</div>
+				</div>
+			</div>
+			<a href="#" class="commonActionBtn">Submit</a>
+		</form> 
 	</div> 
 </section>  
+<section class="mapBox wow fadeInUp">  
+	<div class="common sectionHeading">
+		<h2>Our Presence in This World</h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+	</div>  
+	<img src="images/map.svg" alt="">  
+</section> 
+<section class="addressInfo wow fadeInUp"> 
+	<div class="containerFluid">
+		<div class="row">
+			<div class="col-md-12">
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+					<li class="nav-item" role="presentation">
+					  <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">United States</button>
+					</li>
+					<li class="nav-item" role="presentation">
+					  <button class="nav-link" id="Canada-tab" data-toggle="tab" data-target="#Canada" type="button" role="tab" aria-controls="Canada" aria-selected="false">Canada</button>
+					</li>
+					<li class="nav-item" role="presentation">
+					  <button class="nav-link" id="Europe-tab" data-toggle="tab" data-target="#Europe" type="button" role="tab" aria-controls="Europe" aria-selected="false">Europe</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="nav-link" id="Africa-tab" data-toggle="tab" data-target="#Africa" type="button" role="tab" aria-controls="Africa" aria-selected="false">Middle East & Africa</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="nav-link" id="India-tab" data-toggle="tab" data-target="#India" type="button" role="tab" aria-controls="India" aria-selected="false">India</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="nav-link" id="Asia-tab" data-toggle="tab" data-target="#Asia" type="button" role="tab" aria-controls="Asia" aria-selected="false">Asia Pecific</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="nav-link" id="Australia-tab" data-toggle="tab" data-target="#Australia" type="button" role="tab" aria-controls="Australia" aria-selected="false">Australia</button>
+					</li>
+				  </ul>
+				  <div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+						<div class="addressWrap">
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+						</div>
+					</div> 
+					<div class="tab-pane fade" id="Canada" role="tabpanel" aria-labelledby="Canada-tab">
+						<div class="addressWrap">
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="Europe" role="tabpanel" aria-labelledby="Europe-tab">
+						<div class="addressWrap">
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="Africa" role="tabpanel" aria-labelledby="Africa-tab">
+						<div class="addressWrap">
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="India" role="tabpanel" aria-labelledby="India-tab">
+						<div class="addressWrap">
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="Asia" role="tabpanel" aria-labelledby="Asia-tab">
+						<div class="addressWrap">
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="Australia" role="tabpanel" aria-labelledby="Australia-tab">
+						<div class="addressWrap">
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+							<div class="addressBox">
+								<h2>Company Name & Title</h2>
+								<p>12th Floor, Broadgate Tower ,</p>
+								<p>20 Primrose Street, </p>
+								<p>Kingston, New York 12401, USA</p>
+							</div>
+						</div>
+					</div>
+				  </div> 
+			</div>
+		</div>
+	</div>  
+</section> 
 <!-- Start Footer -->
 <footer>
 	<div class="container-fluid">
